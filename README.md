@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/GuilhermeVieiraCode/interactive-rating-component)
-- [Live site URL](https://your-live-site-url.com)
+- [Live site URL](https://rating-component-guivieiracode.netlify.app/)
 
 ### Built with
 

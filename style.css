@@ -111,9 +111,14 @@ section{
     width: fit-content;
 }
 
-#sec-section .text p, h1{
+#sec-section .text p{
     text-align: center;
 }
+
+#sec-section .text h1{
+    text-align: center;
+}
+
 
 @media(max-width: 600px){
    .card{
