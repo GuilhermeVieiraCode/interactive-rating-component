@@ -55,7 +55,6 @@ section{
 .card-btns{
     display: flex;
     justify-content: space-between;
-
 }
 
 .card-btns button{
@@ -77,7 +76,6 @@ section{
     background-color: var(--orange);
 }
 
-
 #submit{
     margin-top: 24px;
     color: var(--white);
@@ -94,9 +92,6 @@ section{
    background-color: var(--white);
 }
 
-section:first-child{
-    display: none;
-}
 
 /* Secondary Section */
 

@@ -33,13 +33,13 @@
         </p>
       </div>
       <div class="card-btns">
-        <button type="button" value="1">1</button>
-        <button type="button" value="2">2</button>
-        <button type="button" value="3">3</button>
-        <button type="button" value="4">4</button>
-        <button type="button" value="5">5</button>
+        <button onclick="option(this)" type="button" value="1">1</button>
+        <button onclick="option(this)" type="button" value="2">2</button>
+        <button onclick="option(this)" type="button" value="3">3</button>
+        <button onclick="option(this)" type="button" value="4">4</button>
+        <button onclick="option(this)" type="button" value="5">5</button>
       </div>
-      <button id="submit" type="button">Submit</button>
+      <button onclick="submit()" id="submit" type="button">Submit</button>
     </div>
   </section>
 
@@ -52,7 +52,7 @@
         <img src="/images/illustration-thank-you.svg" alt="Vote machine illustration">
       </div>
       <div>
-        <p>You selected 4 out of 5</p>
+        <p></p>
       </div>
       <div class="text">
         <h1>Thank you!</h1>
@@ -61,20 +61,10 @@
       </div>
     </div>
   </section>
-
-  <!--You selected  Add rating here  out of 5-->
-
-  <!-- Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch! -->
-
-  <!-- Thank you state end -->
-
-  
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="/script.js"></script>
 </body>
 </html>
