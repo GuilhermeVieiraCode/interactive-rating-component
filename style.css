@@ -1,0 +1,120 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: var(--very-dark-blue);
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+}    
+
+section{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#star{
+    width: fit-content;
+    background-color: rgba(124, 135, 152, 0.1);
+    border-radius: 50%;
+    padding: 12px 12px 8px 12px;
+}
+
+.card{
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 24vw;
+    border-radius: 16px;
+}
+
+.text h1{
+    color: var(--white);
+}
+
+.text p{
+    color: var(--light-grey);
+    font-size: 15px;
+    text-align: start;
+}
+
+.card-btns{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-btns button{
+    border: none;
+    color: var(--medium-grey);
+    background-color: rgba(124, 135, 152, 0.1);
+    padding: 12px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card-btns button:hover{
+    color: var(--white);
+    background-color: var(--light-grey);
+}
+
+.card-btns button:focus{
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+
+#submit{
+    margin-top: 24px;
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 12px;
+    border: none;
+    border-radius: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#submit:focus{
+   color: var(--orange);
+   background-color: var(--white);
+}
+
+section:first-child{
+    display: none;
+}
+
+/* Secondary Section */
+
+#sec-section .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sec-section div:nth-child(2) p{
+    border-radius: 24px;
+    background-color: rgba(124, 135, 152, 0.1);
+    color: var(--orange);
+    text-align: center;
+    padding: 8px 16px;
+    width: fit-content;
+}
+
+#sec-section .text p, h1{
+    text-align: center;
+}
