@@ -44,6 +44,7 @@ section{
 
 .text h1{
     color: var(--white);
+    text-align: start;
 }
 
 .text p{
@@ -87,7 +88,7 @@ section{
     cursor: pointer;
 }
 
-#submit:focus{
+#submit:hover{
    color: var(--orange);
    background-color: var(--white);
 }
@@ -113,3 +114,15 @@ section{
 #sec-section .text p, h1{
     text-align: center;
 }
+
+@media(max-width: 600px){
+   .card{
+       width: 70%;
+   } 
+}
+
+@media(max-width: 824px){
+    .card{
+        width: 75%;
+    } 
+ }
