@@ -13,49 +13,48 @@
   
 </head>
 <body>
-
+  <main>
   <!-- Rating state start -->
-  <section>
-    <div class="card">
-      <div id="star">
-        <img src="/images/icon-star.svg" alt="Icon Star">
+    <section class="container">
+      <div class="card">
+        <div id="star">
+          <img src="/images/icon-star.svg" alt="Icon Star">
+        </div>
+        <div class="text">
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </div>
+        <div class="card-btns">
+          <button class="rating-btn" type="button" value="1">1</button>
+          <button class="rating-btn" type="button" value="2">2</button>
+          <button class="rating-btn" type="button" value="3">3</button>
+          <button class="rating-btn" type="button" value="4">4</button>
+          <button class="rating-btn" type="button" value="5">5</button>
+        </div>
+        <button id="submit" type="button">Submit</button>
       </div>
-      <div class="text">
-        <h1>How did we do?</h1>
-        <p>
-          Please let us know how we did with your support request. All feedback is appreciated 
-          to help us improve our offering!
-        </p>
-      </div>
-      <div class="card-btns">
-        <button onclick="option(this)" type="button" value="1">1</button>
-        <button onclick="option(this)" type="button" value="2">2</button>
-        <button onclick="option(this)" type="button" value="3">3</button>
-        <button onclick="option(this)" type="button" value="4">4</button>
-        <button onclick="option(this)" type="button" value="5">5</button>
-      </div>
-      <button onclick="submit()" id="submit" type="button">Submit</button>
-    </div>
-  </section>
+    </section>
 
-  <!-- Rating state end -->
+    <!-- Rating state end -->
 
-  <!-- Thank you state start -->
-  <section id="sec-section">
-    <div class="card">
-      <div>
-        <img src="/images/illustration-thank-you.svg" alt="Vote machine illustration">
+    <!-- Thank you state start -->
+    <section class="container" id="sec-section">
+      <div class="card">
+        <div>
+          <img src="/images/illustration-thank-you.svg" alt="Vote machine illustration">
+        </div>
+        <div class="text">
+          <h1>Thank you!</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
+        </div>
       </div>
-      <div>
-        <p></p>
-      </div>
-      <div class="text">
-        <h1>Thank you!</h1>
-        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
-          don’t hesitate to get in touch!</p>
-      </div>
-    </div>
-  </section>
+    </section>
+    <!-- Thank you state end -->
+  </main>  
   <script src="/script.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@
     --orange: hsl(25, 97%, 53%);
 }
 
-html, body{
+html, body, main{
     height: 100%;
 }
 
@@ -17,7 +17,7 @@ body{
     margin: 0;
 }    
 
-section{
+.container{
     height: 100%;
     padding: 0;
     margin: 0;
@@ -58,7 +58,7 @@ section{
     justify-content: space-between;
 }
 
-.card-btns button{
+.rating-btn{
     border: none;
     color: var(--medium-grey);
     background-color: rgba(124, 135, 152, 0.1);
@@ -67,12 +67,12 @@ section{
     cursor: pointer;
 }
 
-.card-btns button:hover{
+.rating-btn:hover{
     color: var(--white);
     background-color: var(--light-grey);
 }
 
-.card-btns button:focus{
+.rating-btn:focus{
     color: var(--white);
     background-color: var(--orange);
 }
@@ -102,7 +102,7 @@ section{
     align-items: center;
 }
 
-#sec-section div:nth-child(2) p{
+#rating-result-content{
     border-radius: 24px;
     background-color: rgba(124, 135, 152, 0.1);
     color: var(--orange);
